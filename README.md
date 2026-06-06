@@ -37,7 +37,7 @@ i3-wm - My tiling i3 configuration for Debian
     * Clone repository and copy files to your home:
 
       ```shell
-      git clone https://github.com/asdo92/i3-wm
+      git clone https://github.com/dmesg00/i3-wm
       cd i3-wm
       cp -rf .config ~/
       cp -rf wallpapers ~/
@@ -49,7 +49,7 @@ i3-wm - My tiling i3 configuration for Debian
 
   * **`Network (Optional):`**
   
-    * By default, I use `iwd` as my network manager via the `iwd-connectd` script. Alternative using [interfaces](https://github.com/asdo92/i3-wm/blob/master/.config/network/interfaces) file.
+    * By default, I use `iwd` as my network manager via the `iwd-connectd` script. Alternative using [interfaces](https://github.com/dmesg00/i3-wm/blob/master/.config/network/interfaces) file.
     * To modify the configuration, you must edit the file `/usr/bin/iwd-connectd-cfg` with root:
     
       ```shell
